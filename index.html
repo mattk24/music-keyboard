@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Music keyboard</title>
+     <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div id="title">
+      <div class="h1">
+        Music Keyboard 
+      </div>
+        <div class="music-keys mt-5 mb-5">
+          <button  class="w music ml-2 mr-2">W</button>
+          <button class="a music ml-2 mr-2">A</button>
+          <button class="s music ml-2 mr-2">S</button>
+          <button class="d music ml-2 mr-2">D</button>
+          <button class="f music ml-2">F</button>
+        </div> 
+      <button onclick="stop()" id="stop-button" class="stop mb-5">Stop</button>
+      <a onclick="Audiostop()"></a>
+    </div>
+    <div>
+      <audio id="audio">
+        <source src="" type="">
+      </audio>
+    </div>
+    <script src="index.js"></script>
+    <script src="audio.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  </body>
+  <footer>
+    Created by: Matthew Koukios
+  </footer>
+</html>

@@ -1,0 +1,36 @@
+div[class="h1"] {
+    color: gold;
+    text-align: center;
+  }
+  
+  body {
+    background: linear-gradient(90deg, #000000, #52057b, #892cdc, #bc6ff1);
+  }
+  
+  .music-keys {
+    position: relative;
+    left: 29rem;
+  }
+  
+  .music {
+    background-color: #892cdc;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  .stop {
+    position: relative;
+    left: 37rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    background-color: red;
+    color: white;
+  }
+  
+  footer {
+    text-align: center;
+    color: white;
+  }
