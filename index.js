@@ -8,6 +8,8 @@ for (var i = 0; i<numberofMusicButtons; i++) {
     makeSound(buttonInnerHTML);
     
     buttonAnimation(buttonInnerHTML);
+
+    
     
   });
   
@@ -25,8 +27,8 @@ document.addEventListener('keypress', function(event) {
 function makeSound(key) {
   switch (key) {
     case 'w' :
-      var music1 = new Audio('sounds/God Gave Me You.mp3');
-      alert("You clicked on the w key for Country");
+      var music1 = new Audio('sounds/God Gave Me You.mp3')
+      alert("You clicked on the w key for Country")
       music1.play();
       break;
       
@@ -53,8 +55,24 @@ function makeSound(key) {
       alert("play this music")
       music5.play();
       break;
-  }  
+  }
 }
+
+var stopButton = document.getElementById('stop-button');
+
+Audio.prototype.stop = function() {
+  this.pause();
+  this.currentTime = 0;
+};
+
+function stopMusic() {
+  var audio = document.getElementById('music-keyboard');
+  var music1stop = new Audio('sounds/God Gave Me You.mp3');
+  music1stop.stop();
+}
+
+stopButton.addEventListener('onClick', stopMusic);
+
 
 
 function buttonAnimation(currentkey) {
