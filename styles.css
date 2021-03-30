@@ -6,6 +6,19 @@ div[class="h1"] {
   body {
     background: linear-gradient(90deg, #000000, #52057b, #892cdc, #bc6ff1);
   }
+
+  ol {
+    margin-left: 30rem;
+}
+
+li {
+  color: white;
+}
+
+p {
+  color: white;
+  margin-left: 20rem;
+}
   
   .music-keys {
     position: relative;
@@ -33,4 +46,5 @@ div[class="h1"] {
   footer {
     text-align: center;
     color: white;
+    margin-top: 3rem;
   }
