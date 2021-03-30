@@ -28,11 +28,7 @@ function makeSound(key) {
   switch (key) {
     case 'w' :
       var music1 = new Audio('sounds/God Gave Me You.mp3')
-<<<<<<< HEAD
       alert("You clicked on the w key for Country") // God gave me you
-=======
-      alert("You clicked on the w key for Country")
->>>>>>> 92f0b8bbdcda5a714cf1b48ea71be6f6453a7f0a
       music1.play();
       break;
       
@@ -59,7 +55,6 @@ function makeSound(key) {
       alert("You clicked on the f key for Contemporary R&B") // I swear
       music5.play();
       break;
-<<<<<<< HEAD
 
       case 'e' :
         var music6 = new Audio('sounds/Deer in the Headlights.m4a')
@@ -186,26 +181,8 @@ function makeSound(key) {
               alert("You clicked on the k key for Stand") // Stand
               music26.play();
               break;
-=======
->>>>>>> 92f0b8bbdcda5a714cf1b48ea71be6f6453a7f0a
   }
 }
-
-var stopButton = document.getElementById('stop-button');
-
-Audio.prototype.stop = function() {
-  this.pause();
-  this.currentTime = 0;
-};
-
-function stopMusic() {
-  var audio = document.getElementById('music-keyboard');
-  var music1stop = new Audio('sounds/God Gave Me You.mp3');
-  music1stop.stop();
-}
-
-stopButton.addEventListener('onClick', stopMusic);
-
 
 
 
