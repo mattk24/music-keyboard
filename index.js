@@ -57,7 +57,7 @@ function makeSound(key) {
       break;
 
       case 'e' :
-        var music6 = new Audio('sounds/Deer%20In%20the%20Headlights.m4a')
+        var music6 = new Audio('sounds/Deer In the Headlights.m4a')
         alert("You clicked on the e key for Deer in the Headlights") // Deer in the headlights
         music6.play();
         break;
